@@ -1,2 +1,2 @@
 # java_project
-**EDIT:** This article is lacking.
+Use Eclipse Java to run our program.
