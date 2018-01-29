@@ -10,7 +10,7 @@ Photos are not a instance of all of them code written in Java, it maybe a part, 
 Two photos:
 ![alt text](0a.png "S1: Showing this program's photo.")
 ![alt text](0b.png "S2: Showing written in Java's codes and output text.")
-Those photos are showing program shows what and program's output is what, does not show the code is what, and this is why we added photo to show what that program shows. But show a part of my code, not all code, because do it does not useful for showing my code is what.
+Those photos are showing program shows what and program's output is what, does not show the code is what, and this is why we added photo to show what that program shows. But show a part of my code, not all code, because do it does not useful for showing my code written in Java is wroted what.
 
 Actually, this screenshot are showing a part of them code written in Java, not all of them code written in Java. It is no longer needed to take a screenshot, see my last sentence that is saying:
 
@@ -71,6 +71,7 @@ If it has an error and problem you've encountered, please add a issue instead of
 
 Open in Project Explorer , click right of your mouse and Press Run.
 
+Done!
 # Others
 Java Project is good for running in Debian/Ubuntu, and the ""sudo apt-get"" command is for Debian/Ubuntu. This project is under following usage description:
 
@@ -110,7 +111,7 @@ When I comment your issue, you need reply my comment. It is not possible, if I d
 
 It must be comment your issue when you don't have a new challenge can work, if I use a command is work for you, I going to close your issue for my challenge you can work.
 
-Commenting issues are not similar to add a issue when you solved for my challenge, I want going to close your isssue when solved your issue with typing a command. We does not use a bug to add some pull requests on this respository, but if your issne dosen't make sense, I going to close your issue. 
+Commenting issues are not similar to add a issue when you solved for my challenge, I want going to close your isssue when solved your issue with typing a command. We does not use a bug to add some pull requests on this respository, but if your issne dosen't make sense, I going to close your issue for more description. 
 
 ## Add a comment on *Beta folder* pull request
 Please do not add a question that does not make sense, must be I understanding what are you saying. If I add a question does not make sense, I can delete my comment. If you add an comment does not understand, I have write permission to delete your comment. 
