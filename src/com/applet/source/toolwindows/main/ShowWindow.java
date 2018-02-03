@@ -306,8 +306,8 @@ public class ShowWindow extends JPanel{
     		try (Writer writer = new BufferedWriter(new OutputStreamWriter(
     				new FileOutputStream(fileField.getText().toString() ), "utf-8"))) {
     			writer.write("An java program writed file");
-          String atNewLine="Programs cannot change file at thee file writer.\nChanging are not useful.";
-          System.out.println(atNewLine);
+          String atTheNewLine="Programs cannot change file at those file writers.\nChanging meanings are not useful.";
+          System.out.println(atTheNewLine);
     		} catch (FileNotFoundException e){
     			e.printStackTrace();
     		} catch (IOException e) {
