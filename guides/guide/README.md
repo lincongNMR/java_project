@@ -47,40 +47,27 @@ If you want to install all of them Eclipse and Netbeans, you also can type follo
 
 > sudo apt-get install netbeans eclipse
 
-<<<<<<< HEAD
-This command only support for [Debian](www.debian.org)/[Ubuntu](www.ubuntu.com). They are rarely install using those command, because it is similar to download it at web site. 
-=======
 This command only support for [Debian](www.debian.org)/[Ubuntu](www.ubuntu.com). They are rarely install using those command, because it is similar to download it at web site.
->>>>>>> f036a32eb603c68dcced67f3c9448fc82310cadf
 
 or:
 
 Download on website Eclipse(www.eclipse.org) then download on Netbeans(www.netbeans.org).
-<<<<<<< HEAD
-## Usage 
-
-Clone this program please type following command:
-> git clone git@github.com:zixuan75/java_project 
-=======
 ## Usage
 
 Clone this program please type following command:
 > git clone git@github.com:zixuan75/java_project
->>>>>>> f036a32eb603c68dcced67f3c9448fc82310cadf
 
 If it dosen't work, click **Clone or download** button to download.
 
 -->
 
-<<<<<<< HEAD
 In Eclipse/Netbeans, import this project. --> 
 
 See Problems list in your Eclipse/Netbeans. --> 
-=======
+
 In Eclipse/Netbeans, import this project. -->
 
 See Problems list in your Eclipse/Netbeans. -->
->>>>>>> f036a32eb603c68dcced67f3c9448fc82310cadf
 
 If it has an error and problem you've encountered, please add a issue instead of edit my code written in Java. -->
 
