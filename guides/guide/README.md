@@ -1,4 +1,16 @@
 # java_project
+![alt text](0a.png "S1: Showing this program's photo.")
+![alt text](0b.png "S2: Showing written in Java's codes and output text.")
+Those photos are showing program shows what and program's output is what, does not show the code is what, and this is why we added photo to show what that program shows. But show a part of my code, not all code, because do it does not useful for showing my code written in Java is wroted what.
+
+Actually, this screenshot are showing a part of them code written in Java, not all of them code written in Java. It is no longer needed to take a screenshot, see my last sentence that is saying:
+
+> But show a part of my code, not all code, because do it does not useful for showing my code is what.
+
+Because that is not very useful, you can see my code written in Java when you installed Eclipse/Netbeans when you open the Explorer, so this is why we don't take a screenshot of my all is them code written in Java.
+
+We does not have an instance for installation, so we add installation and usage description. I added usage before I added installation.
+
 Following is the usage and installation:
 ## Installation
 If you are no Java, download at here (www.java.com/download) but **need install Java 8 update 121** or please type following command (On Debian/Ubuntu):
