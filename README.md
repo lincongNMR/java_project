@@ -10,6 +10,7 @@ Photos are not a instance of all of them code written in Java, it maybe a part, 
 Two photos:
 ![alt text](0a.png "S1: Showing this program's photo.")
 ![alt text](0b.png "S2: Showing written in Java's codes and output text.")
+
 Those two photos are showing program shows what and program's output is what, does not show the code is what, and this is why we added photo to show what that program shows. But show a part of my code, not all code, because do it does not useful for showing my code written in Java is writing what.
 
 Actually, this screenshot are showing a part of them code written in Java, not all of them code written in Java. It is no longer needed to take a screenshot, see my last sentence that is saying:
