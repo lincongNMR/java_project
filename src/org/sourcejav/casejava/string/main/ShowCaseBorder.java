@@ -41,7 +41,7 @@ public class ShowCaseBorder {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		Vector<Vague> vagueVec;
+		Vector<Vague> vagueVec=new Vector<Vague>();
 		Vague vague=new Vague(toolsList);
 		vague.initialization();
 		vagueVec.add(vague);

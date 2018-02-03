@@ -18,7 +18,7 @@ public class combine {
 		bString="Hi everything";
 		bStringVec.add(bString);
 		bStringLabel.setText(new Integer(bStringVec.size() ).toString() );
-		bString="\t String: "bStringLabel.getText();
+		bString="\t String: "+bStringLabel.getText();
 		try {
 			System.in.close();
 			bStringLabel.setText(bString);

@@ -71,7 +71,7 @@ public class ToolsWindow extends JPanel{
 			if (formatToExtended) {
 				toolsList=toolsList.substring(0, 4);
 				System.out.println(toolsList);
-				if (toolslist == formatting){
+				if (toolsList == formatting){
 					res.setText(formatting);
 					return;
 				}

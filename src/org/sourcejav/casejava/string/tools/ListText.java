@@ -7,7 +7,7 @@ public class ListText {
 		System.out.format("string", null);
 		initialization("just a string");
 	}
-	public static initialization(String traditional){
+	public static void initialization(String traditional){
 		System.out.println("In initialization\nat the same time");
 		String init="string";
 		init.concat(traditional);
