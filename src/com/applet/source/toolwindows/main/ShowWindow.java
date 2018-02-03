@@ -118,7 +118,7 @@ public class ShowWindow extends JPanel{
     }
     private static class NewFolderAction extends AbstractAction{
     	public NewFolderAction() {
-    		putValue(NAME, "New a folder ");
+    		putValue(NAME, "New a folder");
     		putValue(MNEMONIC_KEY, new Integer(KeyEvent.VK_N));
     	}
     	public void actionPerformed(ActionEvent ae) {
