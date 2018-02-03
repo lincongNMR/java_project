@@ -63,7 +63,7 @@ public class ToolsWindow extends JPanel{
 			toolsList=formatting;
 			res.setText(toolsList);
 			if (! formatting.contains(toolsList) ) {
-				System.err.println(toolsList+": Could not contain two items (ToolsWindow.java:67).");
+				System.err.println(toolsList+": Could not contain two items (ToolsWindow.java:66).");
 				return;
 			}else
 				System.out.println("Contained items");
