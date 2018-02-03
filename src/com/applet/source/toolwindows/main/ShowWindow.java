@@ -143,7 +143,9 @@ public class ShowWindow extends JPanel{
             System.out.println("Error: The category is uncategorized at the same time\nSource: (ShowWindow.java:143)");
             return;
           }
-    		}
+    		}else{
+          fileS.delete();
+        }
     	}
     }
     private static class GoToAction extends AbstractAction{
