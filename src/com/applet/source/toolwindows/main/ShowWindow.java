@@ -128,8 +128,8 @@ public class ShowWindow extends JPanel{
     		if (newFile) {
     			try (Writer writer = new BufferedWriter(new OutputStreamWriter(
     					new FileOutputStream(textField.getText().toString() ), "utf-8"))) {
-        			frame.add(textArea);
-        			textArea.setBackground(Color.blue);
+        	  frame.add(textArea);
+        		textArea.setBackground(Color.blue);
     				writer.close();
             System.out.println("A new folder\n"+textField);
             sources="folder at them\nSystem new folder here: "+textField.getText().toString();
@@ -139,6 +139,10 @@ public class ShowWindow extends JPanel{
     			} catch (IOException e) {
     				e.printStackTrace();
     			}
+          if (sourceButton.substring(0, 1) != "A"){
+            System.out.println("Error: The category is uncategorized at the same time\nSource: (ShowWindow.java:143)");
+            return;
+          }
     		}
     	}
     }
