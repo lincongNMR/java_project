@@ -215,6 +215,11 @@ public class ShowWindow extends JPanel{
     			}
           boolean actionFinished=false;
           if (s.nextLine()=="7"){
+            System.out.println(s.nextLine() );
+            String currentLine=s3.toString();
+            currentLine.concat(System.lineSeparator() );
+          }
+          if (s.nextLine()=="8"){
             String nextToPrevLine=s.nextLine()+":"+s.toString();
             System.out.println("Next Line to Previous Line: "+nextToPrevLine);
             actionFinished=true;
