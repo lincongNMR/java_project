@@ -1,5 +1,4 @@
 # java_project
-<<<<<<< HEAD
 Following is the usage and installation:
 ## Installation
 If you are no Java, download at here (www.java.com/download) but **need install Java 8 update 121** or please type following command (On Debian/Ubuntu):
@@ -26,7 +25,6 @@ We does not have an instance for installation, so we add installation and usage 
 Following is the usage and installation:
 ## Installation
 If you are no Java, download at here (http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html) but **need install Java 8 update 121** or please type following command (On Debian/Ubuntu):
->>>>>>> f036a32eb603c68dcced67f3c9448fc82310cadf
 
 > sudo apt-get install openjdk-8-jre
 
