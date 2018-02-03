@@ -52,6 +52,7 @@ public class ShowWindow extends JPanel{
     private static JTextField ageField;
     private static JLabel res;
     private static String sources;
+    private static String sourceButton;
     public ShowWindow() {
     	setLayout(new BorderLayout());
     	JPanel eastPanel = new JPanel(new GridLayout(4, 4, 36, 66));
@@ -131,7 +132,8 @@ public class ShowWindow extends JPanel{
         			textArea.setBackground(Color.blue);
     				writer.close();
             System.out.println("A new folder\n"+textField);
-            sources="folder at them\nSystem new folder here: "+textField.toString();
+            sources="folder at them\nSystem new folder here: "+textField.getText().toString();
+            sourceButton="A folder at your deployment\n they are a new field at this time.";
     			} catch (FileNotFoundException e){
     				e.printStackTrace();
     			} catch (IOException e) {
@@ -282,6 +284,7 @@ public class ShowWindow extends JPanel{
                 age = Integer.parseInt(content);
                 if(isValid(age)) {
                     res.setText("age: "+age);
+                    System.out.println("Customizing the new deployment age at the same time!\nDoes not working?");
                 } else {
                     res.setText(INVALID_AGE);
                 }
