@@ -1,7 +1,7 @@
 # java_project
 Following is the usage and installation:
 ## Installation
-If you are no Java, download at here (www.java.com/download) but **need install Java 8 update 121** or please type following command (On Debian/Ubuntu):
+If you are no Java, download at here (http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html) but **need install Java 8 update 121** or please type following command (On Debian/Ubuntu):
 
 > sudo apt-get install openjdk-8-jre
 
@@ -28,23 +28,23 @@ If you want to install all of them Eclipse and Netbeans, you also can type follo
 
 > sudo apt-get install netbeans eclipse
 
-This command only support for [Debian](www.debian.org)/[Ubuntu](www.ubuntu.com). They are rarely install using those command, because it is similar to download it at web site. 
+This command only support for [Debian](www.debian.org)/[Ubuntu](www.ubuntu.com). They are rarely install using those command, because it is similar to download it at web site.
 
 or:
 
 Download on website Eclipse(www.eclipse.org) then download on Netbeans(www.netbeans.org).
-## Usage 
+## Usage
 
 Clone this program please type following command:
-> git clone git@github.com:zixuan75/java_project 
+> git clone git@github.com:zixuan75/java_project
 
 If it dosen't work, click **Clone or download** button to download.
 
 -->
 
-In Eclipse/Netbeans, import this project. --> 
+In Eclipse/Netbeans, import this project. -->
 
-See Problems list in your Eclipse/Netbeans. --> 
+See Problems list in your Eclipse/Netbeans. -->
 
 If it has an error and problem you've encountered, please add a issue instead of edit my code written in Java. -->
 
