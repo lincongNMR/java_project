@@ -52,10 +52,7 @@ public class ShowWindow extends JPanel{
     private static JTextField ageField;
     private static JLabel res;
     private static String sources;
-<<<<<<< HEAD
-=======
     private static String sourceButton;
->>>>>>> f036a32eb603c68dcced67f3c9448fc82310cadf
     public ShowWindow() {
     	setLayout(new BorderLayout());
     	JPanel eastPanel = new JPanel(new GridLayout(4, 4, 36, 66));
@@ -131,28 +128,21 @@ public class ShowWindow extends JPanel{
     		if (newFile) {
     			try (Writer writer = new BufferedWriter(new OutputStreamWriter(
     					new FileOutputStream(textField.getText().toString() ), "utf-8"))) {
-<<<<<<< HEAD
-        			frame.add(textArea);
-        			textArea.setBackground(Color.blue);
     				writer.close();
             System.out.println("A new folder\n"+textField);
             sources="folder at them\nSystem new folder here: "+textField.toString();
-=======
         	  frame.add(textArea);
         		textArea.setBackground(Color.blue);
     				writer.close();
             System.out.println("A new folder\n"+textField);
             sources="folder at them\nSystem new folder here: "+textField.getText().toString();
             sourceButton="A folder at your deployment\n they are a new field at this time.";
->>>>>>> f036a32eb603c68dcced67f3c9448fc82310cadf
     			} catch (FileNotFoundException e){
     				e.printStackTrace();
     			} catch (IOException e) {
     				e.printStackTrace();
     			}
-<<<<<<< HEAD
     		}
-=======
           if (sourceButton.substring(0, 1) != "A"){
             System.out.println("Error: The category is uncategorized at the same time\nSource: (ShowWindow.java:143)");
             return;
@@ -160,7 +150,6 @@ public class ShowWindow extends JPanel{
     		}else{
           fileS.delete();
         }
->>>>>>> f036a32eb603c68dcced67f3c9448fc82310cadf
     	}
     }
     private static class GoToAction extends AbstractAction{
@@ -211,11 +200,7 @@ public class ShowWindow extends JPanel{
     					}
     					String previousLine=var2.toString();
     					nextLine=previousLine.substring(10, 42);
-<<<<<<< HEAD
-    					String nextLineFunc="";
-=======
               String nextLineFunc="";
->>>>>>> f036a32eb603c68dcced67f3c9448fc82310cadf
     					System.out.println(var);
     					if (s3.nextLine()=="5"){
     						String next=s3.next();
@@ -226,28 +211,6 @@ public class ShowWindow extends JPanel{
     							var="Goto Line Action: "+s3.nextLine();
     						}
     					}
-<<<<<<< HEAD
-    					String var3=s3.nextLine()+nextLineFunc.substring(10, 14);
-    					nextLineFunc.concat(var3);
-    					nextLine=nextLineFunc+previousLine.substring(10, 28);
-    					if (nextLineFunc != null){
-    						nextLineFunc.concat(System.lineSeparator() );
-    						var2=s.nextLine()+s.toString()+nextLine+previousLine+"Action";
-    						String var4=var2.substring(10, 56);
-    					}
-    					if (s3.hasNextLine() ){
-    						var3=var+s.nextLine();
-    						var3.concat(s.nextLine() );
-    					}
-    				}
-    			}
-    			boolean actionFinished=false;
-    			if (s.nextLine()=="7"){
-    				String nextToPrevLine=s.nextLine()+":"+s.toString();
-    				System.out.println("Next Line to Previous Line: "+nextToPrevLine);
-    				actionFinished=true;
-    			}
-=======
               String var3=s3.nextLine()+nextLineFunc.substring(10, 14);
               nextLineFunc.concat(var3);
               nextLine=nextLineFunc+previousLine.substring(10, 28);
@@ -273,7 +236,6 @@ public class ShowWindow extends JPanel{
             System.out.println("Next Line to Previous Line: "+nextToPrevLine);
             actionFinished=true;
           }
->>>>>>> f036a32eb603c68dcced67f3c9448fc82310cadf
     		}
     	}
     }
@@ -332,10 +294,7 @@ public class ShowWindow extends JPanel{
                 age = Integer.parseInt(content);
                 if(isValid(age)) {
                     res.setText("age: "+age);
-<<<<<<< HEAD
-=======
                     System.out.println("Customizing the new deployment age at the same time!\nDoes not working?");
->>>>>>> f036a32eb603c68dcced67f3c9448fc82310cadf
                 } else {
                     res.setText(INVALID_AGE);
                 }
@@ -360,13 +319,8 @@ public class ShowWindow extends JPanel{
     		try (Writer writer = new BufferedWriter(new OutputStreamWriter(
     				new FileOutputStream(fileField.getText().toString() ), "utf-8"))) {
     			writer.write("An java program writed file");
-<<<<<<< HEAD
-          String atNewLine="Programs cannot change file at thee file writer.\nChanging are not useful.";
-          System.out.println(atNewLine);
-=======
           String atTheNewLine="Programs cannot change file at those file writers.\nChanging meanings are not useful.";
           System.out.println(atTheNewLine);
->>>>>>> f036a32eb603c68dcced67f3c9448fc82310cadf
     		} catch (FileNotFoundException e){
     			e.printStackTrace();
     		} catch (IOException e) {
