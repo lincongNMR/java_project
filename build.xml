@@ -8,7 +8,7 @@
 <!-- You can turn off the Compile on Save (or Deploy on Save) setting -->
 <!-- in the project's Project Properties dialog box.-->
 <project name="java" default="default" basedir=".">
-    <description>Builds, tests, and runs the project java.</description>
+    <description>Builds, tests, and runs the project java_project-master.</description>
     <import file="nbproject/build-impl.xml"/>
     <import file="nbproject/project.xml"/>
     <!--
