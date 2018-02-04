@@ -175,7 +175,6 @@ public class ShowWindow extends JPanel{
     							String next=s.next();
     							if (s2.nextLine()=="2") {
     								nextLine=s2.nextLine();
-    								System.out.println(nextLine);
     								String prevLine=s.toString();
     								previousLine=prevLine.substring(0, 1);
     							}
@@ -266,14 +265,16 @@ public class ShowWindow extends JPanel{
 					sb.append(System.lineSeparator());
 					line = br.readLine();
 				}
-				FileOutputStream out = new FileOutputStream(fileS,true);
+				FileOutputStream out = new FileOutputStream(fileS, true);
 				String everything = textArea.getText();
 				String myString2 = everything.replace("\r", "\t");
 				out.write(myString2.getBytes() );
 				out.write("\n".getBytes() );
 				out.close();
-				System.out.println("Saved a file.");
-
+        String var = null;
+        var=new String("Saving system files to justify system.");
+        everything=myString2.substring(0, 3);
+        myString2.concat(System.lineSeparator() );
 			} catch (IOException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
