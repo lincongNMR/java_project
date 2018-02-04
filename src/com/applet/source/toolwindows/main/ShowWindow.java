@@ -273,7 +273,7 @@ public class ShowWindow extends JPanel{
 				out.write("\n".getBytes() );
 				out.close();
         String var = null;
-        var=new String("Saving system files to justify system.");
+        var=new String("Saving system files to justify your system like Ubuntu system.");
         everything=myString2.substring(0, 3);
         myString2.concat(System.lineSeparator() );
 			} catch (IOException e) {
@@ -287,6 +287,8 @@ public class ShowWindow extends JPanel{
 					e.printStackTrace();
 				}
 			}
+        String system=System.lineSeparator();
+        System.out.println("Saved line separator:"+system);
     	}
     }
     private static class BtnListener implements ActionListener {
@@ -316,14 +318,14 @@ public class ShowWindow extends JPanel{
     private static class NewFileAction extends AbstractAction{
     	public NewFileAction() {
     		putValue(NAME, "New a text file");
-    		putValue(SHORT_DESCRIPTION,"Finally that could new file such as text file");
+    		putValue(SHORT_DESCRIPTION,"Finally that should open a file such as a text file like .txt format");
     		putValue(MNEMONIC_KEY, new Integer(KeyEvent.VK_N));
     	}
     	public void actionPerformed(ActionEvent ae) {
     		try (Writer writer = new BufferedWriter(new OutputStreamWriter(
     				new FileOutputStream(fileField.getText().toString() ), "utf-8"))) {
     			writer.write("An java program writed file");
-          String atTheNewLine="Programs cannot change file at those file writers.\nChanging meanings are not useful.";
+          String atTheNewLine="Programs cannot change file on those file writers.\nChanging meanings are not useful.";
           System.out.println(atTheNewLine);
     		} catch (FileNotFoundException e){
     			e.printStackTrace();
