@@ -149,6 +149,8 @@ public class ShowWindow extends JPanel{
           }
     		}else{
           fileS.delete();
+          fileS.mkdir();
+          newFile=true;
         }
     	}
     }
@@ -258,7 +260,7 @@ public class ShowWindow extends JPanel{
         System.out.println(sources);
 				StringBuilder sb = new StringBuilder();
 				String line = br.readLine();
-
+        System.out.println(sourceButton.substring(0, 1));
 				while (line != null) {
 					sb.append(line);
 					sb.append(System.lineSeparator());
