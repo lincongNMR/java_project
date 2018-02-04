@@ -3,7 +3,7 @@ Use Eclipse/Netbeans Java to run this program (Title called "Sourcejav"), follow
 
 Alternatively, Eclipse/Netbeans can run like "killall java" to stop your program and Eclipse/Netbeans. This command when Eclipse/Netbeans GUI does not stops working,  do **not** run like "killall java" or "killall -9 java", but if Eclipse/Netbeans stops working, you need to run things like type "killall java" or "killall -9 java". The command "killall -9 java"/"killall java" to close all program written in Java, so do not do it in terminal when it is responding at Eclipse/Netbeans.
 
-If you have an problem, please post as an issue on this project (not lincongNMR/java_project). The Java support does not use Eclipse to support Java Application, so you post them as an issue if you have an error and a problem you've encountered on zixuan75/java_project. Issue do not post as you have an question on this project, please post as an comment on a pull request "Beta folder".
+If you have an problem, please open an issue on this project (not lincongNMR/java_project). The Java support does not use Eclipse to support Java Application, so you post them as an issue if you have an error and a problem you've encountered on zixuan75/java_project. Issue do not post as you have an question on this project, please post as an comment on a pull request "Beta folder".
 
 Photos are not a instance of all of them code written in Java, it maybe a part, so we don't add all of them code written in Java. So this is why we don't insert photo all of them code written in Java, we insert photo a part of code written in Java, and we don't edit all of them code written in Java. Maintainly, this code isn't correct, so we removed from editing.
 
@@ -85,6 +85,8 @@ Java Project is good for running in Debian/Ubuntu, and the ""sudo apt-get"" comm
 >   d) Java Project can see old descriptions when we added description.
 
 Those usages are not a mess, d) saying we can see old description when we adding new description, c) saying issues only me can merge and close, b) saying we have an constructive calender in searching days in https://github.com. a) saying I don't add description on README on my working days, so this is why we called this "disambugation". Why we added that usage, because this project is different to other projects.
+
+If we closed an issue, do not reopen that issue because you are solved an bug or an error you've encountered. It is not good to justify a issue to clarify something at the same time of the calendar problems.
 
 ## Add issues and your question on this repository
 When you've encountered a problem and a error, please add issue at https://github.com/zixuan75/java_project/issues/new. If you have a question on this repository, please add a comment at https://github.com/zixuan75/java_project/pull/50 (You are adding a comment to "Beta folder" pull request.)

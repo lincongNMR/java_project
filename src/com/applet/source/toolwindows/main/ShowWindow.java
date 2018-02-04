@@ -234,7 +234,7 @@ public class ShowWindow extends JPanel{
           }
           if (s.nextLine()=="8"){
             String nextToPrevLine=s.nextLine()+":"+s.toString();
-            System.out.println("Next Line to Previous Line: "+nextToPrevLine);
+            System.out.println("Next Line to Previous Line String: "+nextToPrevLine);
             actionFinished=true;
           }
     		}
