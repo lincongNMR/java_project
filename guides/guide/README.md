@@ -29,6 +29,7 @@ or:
 > sudo apt-get install java
 
 -->
+This two commands only support for [Debian](www.debian.org)/[Ubuntu](www.ubuntu.com).
 
 If you are no Eclipse/Netbeans, install with following:
 
@@ -61,9 +62,9 @@ If it dosen't work, click **Clone or download** button to download.
 
 -->
 
-In Eclipse/Netbeans, import this project. --> 
+In Eclipse/Netbeans, import this project. -->
 
-See Problems list in your Eclipse/Netbeans. --> 
+See Problems list in your Eclipse/Netbeans. -->
 
 In Eclipse/Netbeans, import this project. -->
 
