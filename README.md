@@ -17,7 +17,7 @@ Actually, this screenshot are showing a part of them code written in Java, not a
 
 > But show a part of my code, not all code, because do it does not useful for showing my code is what.
 
-Because that is not very useful, you can see my code written in Java when you installed Eclipse/Netbeans when you open the Explorer, so this is why we don't take a screenshot of my all is them code written in Java.
+Because that is not very useful, you can see my code written in Java when you installed Eclipse/Netbeans when you open the Explorer, so this is why we don't take a screenshot of my all of them code written in Java. So this is why it is not possible to use all of them code take a photo.
 
 We does not have an instance for installation, so we add installation and usage description. I added usage before I added installation.
 
@@ -33,7 +33,7 @@ or:
 
 -->
 
-If you are no Eclipse/Netbeans, install with following:
+If you are no Eclipse/Netbeans, install within following details:
 
 ### Eclipse:
 Download Eclipse at www.eclipse.org or using following command:
