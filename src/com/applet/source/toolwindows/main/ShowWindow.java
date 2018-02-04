@@ -212,6 +212,7 @@ public class ShowWindow extends JPanel{
     							var="Goto Line Action: "+s3.nextLine();
     						}
     					}
+              System.out.println(var);
               String var3=s3.nextLine()+nextLineFunc.substring(10, 14);
               nextLineFunc.concat(var3);
               nextLine=nextLineFunc+previousLine.substring(10, 28);
@@ -234,7 +235,7 @@ public class ShowWindow extends JPanel{
           }
           if (s.nextLine()=="8"){
             String nextToPrevLine=s.nextLine()+":"+s.toString();
-            System.out.println("Next Line to Previous Line String: "+nextToPrevLine);
+            System.out.println("Next Line to Previous Line String System: "+nextToPrevLine);
             actionFinished=true;
           }
     		}

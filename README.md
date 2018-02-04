@@ -86,7 +86,7 @@ Java Project is good for running in Debian/Ubuntu, and the ""sudo apt-get"" comm
 
 Those usages are not a mess, d) saying we can see old description when we adding new description, c) saying issues only me can merge and close, b) saying we have an constructive calender in searching days in https://github.com. a) saying I don't add description on README on my working days, so this is why we called this "disambugation". Why we added that usage, because this project is different to other projects.
 
-If we closed an issue, do not reopen that issue because you are solved an bug or an error you've encountered. It is not good to justify a issue to clarify something at the same time of the calendar problems.
+If we closed an issue, do not reopen that issue because you are solved an bug or an error you've encountered. It is not good to justify a issue to clarify something at the same time of the calendar problems. The master should be a default branch so the default branch is the master branch, at the same time, that is not possible.
 
 ## Add issues and your question on this repository
 When you've encountered a problem and a error, please add issue at https://github.com/zixuan75/java_project/issues/new. If you have a question on this repository, please add a comment at https://github.com/zixuan75/java_project/pull/50 (You are adding a comment to "Beta folder" pull request.)
