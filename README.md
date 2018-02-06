@@ -124,7 +124,7 @@ Don't forgot your comment needs make sense and I can understand what are you ask
 > I can delete my comment. If you add an comment does not understand, I have write permission to delete your comment.
 
 1. It means we have write permission to access, can delete comment when we don't understand what are you saying.
-2. We tell you please add enough description, because we don't allow add we don't understand what are you saying.
+2. We tell you please add enough description, because we don't allow to add a pull request we don't understand what are you saying.
 ### Guide to comment
 Replying please add a mention like "@zixuan75", adding new comment on pull requests can not close pull request then comment. If you close *Beta folder* pull request, I will lock this pull request.
 #### Add files and comment
