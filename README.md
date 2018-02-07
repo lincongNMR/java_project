@@ -89,7 +89,7 @@ Those usages are not a mess, d) saying we can see old description when we adding
 If we closed an issue, do not reopen that issue because you are solved an bug or an error you've encountered. It is not good to justify a issue to clarify something at the same time of the calendar problems. The master should be a default branch so the default branch is the master branch, at the same time, that is not possible.
 
 ## Add issues and your question on this repository
-When you've encountered a problem and a error, please add issue at https://github.com/zixuan75/java_project/issues/new. If you have a question on this repository, please add a comment at https://github.com/zixuan75/java_project/pull/50 (You are adding a comment to "Beta folder" pull request.)
+When you've encountered a problem and a error, please add issue at https://github.com/zixuan75/java_project/issues/new. If you have a question on this repository, please add a comment at https://github.com/zixuan75/java_project/pull/50 (You are adding a comment to the "Beta folder" pull request.)
 
 This is not possible when you see where is different, if you see this branch and another branch are different please add a pull request at https://github.com/zixuan75/java_project/compare and choose two branches to start a pull request.
 
