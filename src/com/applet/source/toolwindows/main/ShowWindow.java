@@ -287,8 +287,8 @@ public class ShowWindow extends JPanel{
 					e.printStackTrace();
 				}
 			}
-        String system=System.lineSeparator();
-        System.out.println("Saved line separator:"+system);
+        	String system=System.lineSeparator();
+		System.out.println("Line separator saved succesful");
     	}
     }
     private static class BtnListener implements ActionListener {
