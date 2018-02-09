@@ -3,3 +3,6 @@ rvm:
  - 2.3
  - jruby
  - rbx-3
+before_install:
+  - sudo apt-get update
+  
