@@ -1,5 +1,5 @@
-# java_project - Use Eclipse/Netbeans support for Java to run our program.
 ![alt text](https://travis-ci.org/zixuan75/java_project.svg?branch=master)
+# java_project - Use Eclipse/Netbeans support for Java to run our program.
 
 Use Eclipse/Netbeans Java to run our program, but remember, title is called "Sourcejav", and following screenshot is showing this program running and output text. Please install the **newest version of Java (Java 8 update 121)**, because the program only support for Java 8 update 121. Usage *quote required (**JPanel**)* is only support for Java 8 update 121, the Java 9 also support for code "JPanel a = new JPanel()" but Java 9 does not support for code "JPanel a = new JPanel("blah blah blah")". Actually, this code is not using in Java 9, so you do not install Java 9 in this reason, but also you can install Java 8 when you are using "JPanel a = new JPanel("blah blah blah")" on a line. Download Java **8 update 161** also you can do, but safely you just to run the Java support for the version Java 8 update 121 at the same time you do that.
 
