@@ -5,4 +5,5 @@ rvm:
  - rbx-3
 before_install:
   - sudo apt-get update
-  
+script:
+  - sudo apt-get install git
